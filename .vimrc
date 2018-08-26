@@ -1,3 +1,6 @@
+" dotfilesをGitHubで管理，vimプラグインをNeoBundleで管理する方法メモ
+" https://nwpct1.hatenablog.com/entry/2014/01/14/214128
+"
 " Note: Skip initialization for vim-tiny or vim-small.
 if 0 | endif
 
@@ -6,10 +9,10 @@ if &compatible
 endif
 
 " Required:
-set runtimepath+=~/.vim/bundle/neobundle.vim/
+set runtimepath+=~/dotfiles/.vim/bundle/neobundle.vim/
 
 " Required:
-call neobundle#begin(expand('~/.vim/bundle/'))
+call neobundle#begin(expand('~/dotfiles/.vim/bundle/'))
 
 " Let NeoBundle manage NeoBundle
 " Required:
